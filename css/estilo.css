@@ -38,3 +38,10 @@
 .invisivel{
     display: none;
 }
+
+#erro-ajax{
+    font-size: 14px;
+    color: red;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
