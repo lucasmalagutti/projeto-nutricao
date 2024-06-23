@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+.paciente-invalido{
+    background: lightcoral;
+}
+
+.titulo{
+    padding-bottom: 1%;
+}
+
+.largura-tabela{
+    width: 200px;
+}
+
+.posicao-fixada-titulo{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+
+.botao-adicionar{
+    margin-top: 2%;
+}
+
+.fade-out{
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#filtro-tabela{
+    width: 300px;
+}
+
+#nome{
+    width: 50%;
+}
+
+.invisivel{
+    display: none;
+}
