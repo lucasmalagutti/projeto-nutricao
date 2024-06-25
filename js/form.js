@@ -8,13 +8,13 @@ botaoAdicionar.addEventListener("click", function(event){
 
     pacienteTr = montaTr(paciente);
 
-    var erros = validaPacientes(paciente);
+    // var erros = validaPacientes(paciente);
 
-    if(erros.length > 0){
-        var mensagemErro = document.querySelector("#mensagem-erro");
-        mensagemErro.textContent = erros;
-        return;
-    }
+    // if(erros.length > 0){
+    //     var mensagemErro = document.querySelector("#mensagem-erro");
+    //     mensagemErro.textContent = erros;
+    //     return;
+    // }
 
     adicionaPacienteNaTabela(paciente);
 
